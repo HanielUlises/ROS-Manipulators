@@ -1,0 +1,22 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# Ignore VSCode generated databases
+.vscode/*.db
+.vscode/*.db-shm
+.vscode/*.db-wal
+
+# ROS / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
