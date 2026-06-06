@@ -86,7 +86,7 @@
     <joint name="horizontal_arm_to_claw_support" type="fixed">
         <parent link="horizontal_arm"/>
         <child link="claw_support"/>
-        <origin xyz="0 0.82 0" rpy="0 0 0"/>
+        <origin xyz="0 0.082 0" rpy="0 0 0"/>
     </joint>
 
     <link name="gripper_right">
